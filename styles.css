@@ -1,0 +1,33 @@
+nav {
+  font-size: 2rem;
+  background-color: #f1f1f1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /*moves the items next to each other horizontally*/
+  justify-content: space-around;
+}
+
+nav ul li {
+  cursor: pointer; /*changes the pointer from an arrow to a finger pointing*/
+  padding: 0.5rem;
+  flex: auto; /*this and the next line will make the space distributed evenly*/
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: #555;
+  color: white;
+}
+
+@media all and (max-width: 400px) {
+  nav ul {
+    flex-direction: column; /* the menu items float from top to bottom */
+  }
+  nav ul li {
+    text-align: center;
+  }
+}

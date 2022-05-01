@@ -1,0 +1,12 @@
+Very basic navbar using flexbox
+
+Begins with a navtag and an unordered list
+
+It contains all of the list items
+
+Breaks the styling into 4 parts:
+
+i. nav {} -- contains here the font-size and background-color
+ii. nav ul {} -- contains list-style-type, margin, padding
+iii. nav ul li {} -- contains the cursor, which changes itself
+iv. nav ul li: hover {} 
